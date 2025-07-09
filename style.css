@@ -165,3 +165,10 @@ sub {
     border-radius: 10px;
     border: 2px solid #f9faf8;
 }
+
+footer {
+    background-color: black;
+    color: #f9faf8;
+    text-align: center;
+    padding: 24px;
+}
