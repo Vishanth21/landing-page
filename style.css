@@ -1,6 +1,5 @@
 body {
     font-family: Roboto;
-    color: white;
 }
 
 ul {
@@ -76,4 +75,33 @@ a {
     width: 100px;
     height: 30px;
     font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 25px;
+    margin: 2px;
+}
+
+.card-image {
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+sub {
+    padding: 10px;
 }
